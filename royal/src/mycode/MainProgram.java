@@ -13,6 +13,7 @@ public class MainProgram extends BrowserInitialize{
 	@Test(enabled=false, priority = 1,dataProvider="Testdata", groups ={"sanity","Regression"})
 	public void one(){
 		System.out.println("method one");
+		System.out.print(1);
 	}
 	@Test(enabled=false, priority = 1, groups ={"sanity", "smoke"})
 	public void two(){
