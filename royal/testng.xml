@@ -5,8 +5,7 @@
 	<run>
 	<include name = "Regression"/>
 	</run>
-</groups> 
-<test thread-count="5" name="Method">
+</groups> <test thread-count="5" name="Method">
 	<classes>
 	<class name="mycode.MousehoverandGettext"/>
 	<class name="mycode.WinHandle"/>

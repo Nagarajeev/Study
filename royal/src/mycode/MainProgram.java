@@ -18,6 +18,10 @@ public class MainProgram extends BrowserInitialize{
 	@Test(enabled=false, priority = 1, groups ={"sanity", "smoke"})
 	public void two(){
 		System.out.println("method two");
+<<<<<<< HEAD
+=======
+		System.out.println("Checking for conflict");
+>>>>>>> branch 'master' of https://github.com/Nagarajeev/Study.git
 	}
 
 	@Test(enabled=false, priority = 1, groups ={"sanity", "Regression"})

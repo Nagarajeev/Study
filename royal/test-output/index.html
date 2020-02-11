@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>F:\Selenium Study\MyCode\royal\testng.xml</span>
+                    <span>C:\Users\nagar\git\Study\royal\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="mycode.MainProgram" hash-for-method="printxlshtvalues(R2C1, R2C2, R2C3)">printxlshtvalues(R2C1, R2C2, R2C3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="mycode.MainProgram" hash-for-method="printxlshtvalues(R1C1, R1C2, R1C3)">printxlshtvalues(R1C1, R1C2, R1C3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="mycode.MainProgram" hash-for-method="printxlshtvalues(R4C1, R4C2, R4C3)">printxlshtvalues(R4C1, R4C2, R4C3)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,6 +148,22 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="printxlshtvalues(R1C1, R1C2, R1C3)">
+                  </a> <!-- printxlshtvalues(R1C1, R1C2, R1C3) -->
+                  <span class="method-name">printxlshtvalues</span>
+                  <span class="parameters">(R1C1, R1C2, R1C3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printxlshtvalues(R4C1, R4C2, R4C3)">
+                  </a> <!-- printxlshtvalues(R4C1, R4C2, R4C3) -->
+                  <span class="method-name">printxlshtvalues</span>
+                  <span class="parameters">(R4C1, R4C2, R4C3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="printxlshtvalues(R3C1, R3C2, R3C3)">
                   </a> <!-- printxlshtvalues(R3C1, R3C2, R3C3) -->
                   <span class="method-name">printxlshtvalues</span>
@@ -149,7 +175,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\Selenium Study\MyCode\royal\testng.xml</span>
+            <span class="header-content">C:\Users\nagar\git\Study\royal\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -221,20 +247,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'printxlshtvalues')
 data.setCell(0, 2, 'mycode.MainProgram')
-data.setCell(0, 3, 17);
+data.setCell(0, 3, 40);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'printxlshtvalues')
 data.setCell(1, 2, 'mycode.MainProgram')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 8);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'printxlshtvalues')
+data.setCell(2, 2, 'mycode.MainProgram')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'printxlshtvalues')
+data.setCell(3, 2, 'mycode.MainProgram')
+data.setCell(3, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 ms</span>
+              <span class="suite-total-time">Total running time: 54 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -255,9 +289,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">mycode.MainProgram</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">two</span>
-                <br/>
                 <span class="ignored-method-name">three</span>
+                <br/>
+                <span class="ignored-method-name">two</span>
                 <br/>
                 <span class="ignored-method-name">one</span>
                 <br/>
@@ -287,12 +321,20 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">mycode.MainProgram</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">printxlshtvalues(R2C1, R2C2, R2C3)</span>
+                <span class="method-name">printxlshtvalues(R1C1, R1C2, R1C3)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">printxlshtvalues(R2C1, R2C2, R2C3)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">printxlshtvalues(R3C1, R3C2, R3C3)</span>
-                <span class="method-start">20 ms</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printxlshtvalues(R4C1, R4C2, R4C3)</span>
+                <span class="method-start">71 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
