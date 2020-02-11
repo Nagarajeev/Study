@@ -17,6 +17,7 @@ public class MainProgram extends BrowserInitialize{
 	@Test(enabled=false, priority = 1, groups ={"sanity", "smoke"})
 	public void two(){
 		System.out.println("method two");
+		System.out.println("Inital Check of clash");
 	}
 
 	@Test(enabled=false, priority = 1, groups ={"sanity", "Regression"})
